@@ -3,10 +3,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { socialMedia } from "@/data";
+
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36"  id="#Home">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -43,7 +45,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Bem vindo ao meu Portifolio!
           </p>
 
           {/**
@@ -52,21 +54,38 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Transforme suas ideias em realidade com um Desenvolvedor Full Stack de Alta Performace"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Olá! sou o Nathan, Desenvolvedor FullStack com vasta experiência, ofereço serviços de desenvolvimento altamente eficientes e personalizados, que leva seu negócio ao próximo nível! <br/>
+            Com mais de 4 anos de experiência em projetos de alta complexidade, ultilizo tecnologias de ponta para entregar resultados
+            que geram impacto imediato.
           </p>
+
+
+          <div className="flex items-center md:gap-3 gap-6 mb-4 ">
+              {socialMedia.map((info) => (
+                <a href={info.Link} target="_blank">
+                    <div
+                    key={info.id}
+                    className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                  >
+                      <img src={info.img} alt="icons" width={20} height={20} />
+                  </div>
+                </a>
+              ))}
+         </div>
 
           <a href="#about">
             <MagicButton
-              title="Show my work"
+              title="Veja meus projetos"
               icon={<FaLocationArrow />}
               position="right"
             />
           </a>
+
         </div>
       </div>
     </div>

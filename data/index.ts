@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Priorizo ​​a colaboração com o cliente, promovendo uma comunicação aberta",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Adapto-me facilmente a diferentes fusos horários, garantindo uma comunicação eficiente e fluida.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: " e expandir meu conhecimento",
+    description: "Estou sempre em busca de aprimorar minhas habilidades ",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Entusiasta de tecnologia com paixão por desenvolvimento.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Estou sempre atualizado com as tecnologias mais modernas do mercado",
+    description: "Soluções estejam alinhadas com as últimas tendências e melhores práticas.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,13 +59,13 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Você quer começar um projeto juntos?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
-    spareImg: "",
+    spareImg: "", 
   },
 ];
 
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "3D Solar System Planets to Explore",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    img: "/image5.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "/image4.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/image3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -98,8 +98,16 @@ export const projects = [
     id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/image2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
+  {
+    id: 5,
+    title: "Crud",
+    des: "Crud React..",
+    img: "/image.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg",],
     link: "/ui.apple.com",
   },
 ];
@@ -173,29 +181,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer junior",
+    desc: "Contribuiu no desenvolvimento de websites dinâmicos e responsivos utilizando React.js, Bootstrap, Tailwind CSS, HTML e CSS, focando em aprimorar a interatividade e proporcionar uma experiência de usuário mais fluida e envolvente.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance website - PersianaCruz",
+    desc: "Desenvolvido com Vue.js no front-end e estilizado com Tailwind CSS, este projeto oferece uma experiência de usuário moderna e intuitiva para os clientes explorarem e adquirirem produtos de persianas.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web app Project",
+    desc: "Desenvolvimento de websites e aplicações web para diversos clientes, desde o conceito inicial até o lançamento, garantindo a entrega de soluções personalizadas e de alta qualidade..",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Developer",
+    desc: "Projetou, desenvolveu e otimizou funcionalidades voltadas para o usuário, utilizando tecnologias frontend de ponta, garantindo alto desempenho, responsividade e uma experiência de uso fluida em diversos dispositivos.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +213,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    Link:'https://github.com/rasta-slaine'
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    Link:'https://www.instagram.com/nathanslaine/'
   },
   {
     id: 3,
     img: "/link.svg",
+    Link:'https://br.linkedin.com/in/nathan-das-chagas-santos-862179185'
   },
+
 ];
